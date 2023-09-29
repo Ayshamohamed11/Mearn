@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Fredericka+the+Great&family=Lobster&family=Rancho&family=Roboto+Condensed&family=Skranji&family=Teko:wght@300&display=swap');
+/* body{
+    background-image: url(./images/cakebg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.c1{
+    background-image: url(./images/cakebg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 520px;
+    height: 89px;
+    width: 524px; */
+    margin-top: -10px;
+    height: 694px;
+    background-color: rgba(168, 101, 112, 0.297);
+    /* border-radius: 53%; */
+    text-align: center;
+    width: 100%;
+}
+#cen1{
+    height: 250px;
+    background-color: rgba(204, 117, 132, 0.589);
+    width: 500px;
+    padding-top: 300px;
+    font-size: xx-large;
+    margin-left: 600px;
+    text-align: center;
+    
+}
+#h1{font-family: 'Croissant One', cursive;
+    /* padding-top: 15px; */
+    /* margin-left: 10px; */
+}
+#h3{font-family: 'Croissant One', cursive;
+    /* margin-left: 20px; */
+    margin-top: -20px;
+}
+.c2{ width: 100%;
+    height: 89px;
+    background-color: rgba(136, 90, 98, 0.425);
+   border-radius: 10px;
+}
+#ss1{
+    padding-top: 29px;
+    margin-left: 20px;
+    color: crimson;
+    font-family: 'Croissant One';
+}
+a{ text-decoration: none;
+    color: crimson;
+    margin-left: 600px;
+    /* padding-bottom: 20px; */
+    font-family: 'Croissant One';
+    display:flex;
+justify-content: right;
+flex-wrap: wrap;
+margin-right: 31px;
+margin-top: -47px;
+}
+.x1{
+   margin-top: 10px;
+    background-color: rgba(164, 109, 118, 0.799);
+   display: flex;
+   justify-content: space-evenly;
+ flex-wrap: wrap;
+ border-radius: 20px;
+ margin-bottom: 10px;
+}
+.ca{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* height: 350px; */
+    width: 350px;
+    border: 2px pink solid;
+    border-radius: 20px;
+    background-color: rgba(182, 110, 146, 0.527);
+}
+img{margin-left: 17px;
+    padding: 14px;
+    width: 80%;
+    height: 250px;
+    border-radius: 20px;
+}
+#cn1{
+    margin-top: -10px;
+    text-align: center;
+}
+#cr1{
+   
+    text-align: center;
+}
+/* #hh1{
+    margin-right:177px;
+margin-top: -23px;
+} */
+
+
+@media(max-width:1231px){
+    .c1{
+        background-image: url(./images/cakebg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-color: rgba(168, 101, 112, 0.297);
+    }
+    #cen1{
+        height: 165px;
+        background-color: rgba(204, 117, 132, 0.589);
+        width: 181px;
+        padding-top: 30px;
+        font-size: large;
+        margin-left: 81px;
+        
+    }
+    a{ text-decoration: none;
+        color: crimson;
+        margin-left: 100px;
+        font-family: 'Croissant One';
+        display:flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-top: -43px;
+    }
+   
+    #hh1{
+        margin-right: 20px;
+        margin-top: -36px;
+    }
+    #ss1{
+        font-size: medium;
+        margin-top: 10px;
+        width: 100%;
+        
+    }
+    .c2{
+        height: 50px;
+        padding-bottom: 24px;
+    }
+}
+.ca:hover{
+    box-shadow: 0 4px 8px 0 rgba(215, 86, 200, 0.416), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.04);
+}
